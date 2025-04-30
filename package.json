@@ -1,11 +1,12 @@
 {
   "name": "oldteabot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Telegram 统计机器人",
   "main": "src/bot.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec node src/bot.js"
+    "dev": "nodemon --exec node src/bot.js",
+    "setup": "node setup.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "grammy": "^1.36.1",
-    "mongodb": "^6.16.0"
+    "mongoose": "^8.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
