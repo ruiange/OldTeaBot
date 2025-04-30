@@ -5,7 +5,7 @@
   "main": "src/bot.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec node src/bot.js",
+    "dev": "nodemon src/bot.js",
     "setup": "node setup.js"
   },
   "repository": {
