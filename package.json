@@ -1,0 +1,18 @@
+{
+  "name": "oldteabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruiange/OldTeaBot.git"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "grammy": "^1.36.1",
+    "mongodb": "^6.16.0"
+  }
+}
