@@ -80,7 +80,7 @@ async function main() {
 
   // 4. 启动 Bot
   console.log("🤖 Bot 正在启动…");
-  bot.start();
+  await bot.start();
 }
 
 main().catch(err => {
